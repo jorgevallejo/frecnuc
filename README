@@ -1,0 +1,30 @@
+# Contents
+*frecnuc.sh* - bash script (mostly AWK).
+
+*good_sequence.fa* - short genomic sequence in FASTA format.
+
+*bad_sequence.fa* - invalid genomic sequence with an _x_ letter
+in between the nucleotide sequence. It should trigger the error message.
+
+# Instructions
+
+Local:
+$ ./frecnuc.sh file
+
+Or put it in your bin directory:
+$ frecnuc file
+
+It only accepts one file as input, further files will be ignored.
+
+The file must contain ONLY one sequence.
+
+It does not check if the format is correct.
+
+
+# Future development
+
+## More than one sequence in the same file.
+
+## Expand for RNA and aminoacid sequences
+
+## Check if the sequences are in FASTA format
